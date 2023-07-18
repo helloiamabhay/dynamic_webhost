@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+{{>navbar}}
+
+{{!-- hero section start --}}
+<div class="container-fluid mt-5 py-10">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+         <div class="row">
+            <div class="col-md-6 col-12 hero-text order-md-0 order-1 text-center margin_first">
+            <h1>WE WILL HELP YOU</h1>
+            <h1>GROW YOUR BUSINESS</h1>
+            <p>Lorem ipsum dolor sit amet <span class="bold-style"> consectetur adipisicing👌 </span></p>
+             <button class="btn btn-primary">Read more</button>
+            </div>
+            {{!-- right side --}}
+            <div class="col-md-6 col-12 hero-text order-md-1 order-0 ">
+              <img  src="images/Happy-Thumbs-Up-Robot.svg" alt="hero_section">
+            </div>
+         </div>
+        </div>
+    </div>
+</div>
+{{!-- hero section end --}}
+<hr>
+
+{{!-- about section start  --}}
+{{>about}}
+{{!-- about section start  --}}
+
+{{!-- service section start  --}}
+{{>service}}
+{{!-- service section start  --}}
+
+{{!-- map section start --}}
+{{>map}}
+{{!-- map section end --}}
+
+
+{{!-- contact section start --}}
+{{>contact}}
+{{!-- contact section end --}}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
