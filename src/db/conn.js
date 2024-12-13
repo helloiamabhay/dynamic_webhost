@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const DB ='mongodb+srv://abhayv92004:GeClqDbP9AAiF8Hm@cluster0.urspl4b.mongodb.net/mernstack?retryWrites=true&w=majority'
+const DB ='risky db connection'
 
 //creating db
 
